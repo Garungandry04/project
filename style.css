@@ -1,0 +1,93 @@
+
+  .header .text-center img {
+    border-radius: 100%;
+     
+  }
+
+  
+
+  .typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 5px;
+    animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
+}
+
+@keyframes typing-animation {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+  
+  /* .typing-animation::after {
+    content: "";
+    animation: caret 5s infinite;
+    border-right: 2px solid #ccc;
+    -webkit-animation: caret 5s infinite;
+} */
+
+  
+
+  @keyframes caret {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #ccc;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes caret {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #ccc;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .text-center.align-items-center.mt-4 .col-12 h2.typing-animation {
+    font-size: 24px;
+  
+    color: white;
+    margin-top: 16px;
+  }
+  
+  .text-center.align-items-center.mt-4 .col-12 i.typing-animation {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+  }
+  
+  .text-center.align-items-center.mt-4 .col-12 i.typing-animation span {
+    color: brown;
+  }
+
+  
+
+
+  
+  
+
+
+  
+  
+  
+  
+ 
